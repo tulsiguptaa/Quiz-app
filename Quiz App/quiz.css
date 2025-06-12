@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --BG-COLOR: #121212;
+    --PRIMARY-BG-COLOR: #2A003F;
+    --FONT-COLOR: #E0E0E0;
+    --BOX-COLOR: #1E1E1E;
+    --CORRECT-ANS: #66BB6A;
+    --WRONG-ANS: #EF5350;
+    --BORDER: 2px solid rgb(65, 63, 63);
+}
+
+body {
+    background-color: var(--BG-COLOR);
+    color: var(--FONT-COLOR);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+main {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-outer{
+    margin:20vh auto;
+    box-shadow: 0 5px 5px 3px rgb(61, 110, 143);
+    height: 50vh;
+    width:50vw;
+    border: var(--BORDER);
+}
+
+#form-h3{
+    font-size: 14px;
+}
+
+#sign-up{
+    color:rgb(52, 93, 154);
+}
