@@ -17,7 +17,7 @@
 body {
     background-color: var(--BG-COLOR);
     color: var(--FONT-COLOR);
-    font-family: "Caveat", cursive;
+    font-family: 'Rajdhani',monospace ;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
@@ -25,6 +25,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #00fff7;
+   
 }
 
 .form-outer {
@@ -117,7 +119,6 @@ body {
     cursor: pointer;
     font-size: 24px;
     margin: 25px 0;
-    font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -127,6 +128,8 @@ body {
     z-index: 1;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(30, 122, 158, 0.2);
+    font-family: 'Rajdhani',monospace ;   
+
 }
 
 .btn::before {
