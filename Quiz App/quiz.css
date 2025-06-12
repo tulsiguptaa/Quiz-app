@@ -13,13 +13,13 @@
     --PRIMARY-BG-COLOR: #2A003F;
     --FONT-COLOR: #E0E0E0;
     --BOX-COLOR: #1E1E1E;
-    --CORRECT-ANS: #66BB6A;
+    --CORRECT-ANS: rgb(55, 184, 231);
     --WRONG-ANS: #EF5350;
     --BORDER: 2px solid rgb(65, 63, 63);
     /* navbar page */
     --bg-color: #222327;
     --text-color: #fff;
-    --main-color: #29fd53;
+    --main-color: rgb(55, 184, 231);
 }
 
 body {
@@ -46,7 +46,7 @@ body {
     position: relative;
     width: 600px;
     height: 450px;
-    border: 2px solid pink;
+    border: 2px solid rgb(0, 0, 0);
     font-size: 30px;
     color: rgb(55, 184, 231);
     margin: 0;
@@ -115,7 +115,7 @@ body {
     border-bottom: 2px solid rgb(30, 122, 158);
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     padding-right: 35px;
     /* Space for the icon */
@@ -132,7 +132,7 @@ body {
     font-size: 24px;
     margin: 25px 0;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     border: 2px solid rgb(30, 122, 158);
     color: white;
@@ -251,6 +251,7 @@ body {
 #info {
     white-space: nowrap;
     line-height: 1.6;
+    font-size: 15px;;
 }
 
 .styling {
