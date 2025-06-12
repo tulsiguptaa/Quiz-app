@@ -2,6 +2,7 @@ function submitQuiz(event) {
   event.preventDefault(); // Prevent form from reloading the page
   console.log("Quiz submitted!");
 }
+<<<<<<< HEAD
 
 const form_outer = document.querySelector('.form-outer');
 const log_in = document.querySelectorAll('.log-in');
@@ -38,3 +39,13 @@ log_in.forEach(link => {
     form_outer.classList.remove('active');
   });
 });
+=======
+// navbar page;
+let menu =document.querySelector('#menu-icon');
+let navbar =document.querySelector('.navbar');
+
+menu.onclick = () => {
+  menu.classList.toggle('bx-x');
+  navbar.classList.toggle('open');
+}
+>>>>>>> new-feature
