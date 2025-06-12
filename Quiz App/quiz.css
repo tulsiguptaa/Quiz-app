@@ -159,7 +159,6 @@ body {
     transition: 0.5s ease;
 }
 
-<<<<<<< HEAD
 .btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(30, 122, 158, 0.3);
@@ -362,7 +361,6 @@ body {
     margin-bottom: 20px;
     color: rgb(55, 184, 231);
     font-weight: 600;
-=======
 #sign-up{
     color:rgb(30, 122, 158);
 }
@@ -489,5 +487,4 @@ header{
     .navbar.open{
         right: 2%;
     }
->>>>>>> new-feature
 }
