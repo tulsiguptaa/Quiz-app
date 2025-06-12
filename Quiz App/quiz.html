@@ -15,32 +15,34 @@
 </head>
 
 <body>
-    
-    <main>
+    <!-- navbar nandani -->
+    <div class="navbar">
 
-    </main>
+    </div>
 
     <!-- login page -->
      <div class="form-outer">
-        <div class="form-box">
-            <h3 id="from-h3">Login</h3>
+        <div class="form-box Login">
+            <h3 id="form-h3">Login</h3>
      <form action="submitQuiz(event)">   
         <!-- <form action="/submit-quiz" method="POST"> for backend -->
         <div class="username">
-            <label>Username: </label>
             <input type="text" required>
+            <label>Username </label>
              <i class="fa-solid fa-user"></i> 
         </div>
-        <div class="password">
-            <label>Password </label>
+        <div class="username">
             <input type="password" required>
+            <label>Password </label>
             <i class="fa-solid fa-lock"></i>
            
         </div>
-        <p>
-            <button>Login</button>
-        </p>
-        <p>Don't have an account? <span id="sign-up">Sign Up</span></p>
+        <div class="form-btn">
+            <button class="btn" type="submit">Login</button>
+        </div>
+        <div class="regi">
+            <p>Don't have an account? <a href="#" class="sign-up">Sign Up</a>
+            </p></div>
      </form>
      </div>
      </div>
