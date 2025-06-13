@@ -28,25 +28,25 @@
         <div class="styling2"></div>
         <div class="form-box Login">
             <h3 id="form-h3">Login</h3>
-            <form action="submitQuiz(event)">
-                <div class="username">
-                    <input type="text" required>
-                    <label>Username </label>
-                    <i class="fa-solid fa-user"></i>
-                </div>
-                <div class="username">
-                    <input type="password" required>
-                    <label>Password </label>
-                    <i class="fa-solid fa-lock"></i>
-                </div>
-                <div class="form-btn">
-                    <button class="btn" type="submit">Login</button>
-                </div>
-                <div class="regi">
-                    <p>Don't have an account? <a href="#" class="sign-up">Sign Up</a>
-                    </p>
-                </div>
-            </form>
+            <form action="quiz.php" method="post">
+    <input type="hidden" name="action" value="login">
+    <div class="username">
+        <input type="text" name="username" required>
+        <label>Username </label>
+        <i class="fa-solid fa-user"></i>
+    </div>
+    <div class="username">
+        <input type="password" name="password" required>
+        <label>Password </label>
+        <i class="fa-solid fa-lock"></i>
+    </div>
+    <div class="form-btn">
+        <button class="btn" type="submit">Login</button>
+    </div>
+    <div class="regi">
+        <p>Don't have an account? <a href="#" class="sign-up">Sign Up</a></p>
+    </div>
+</form>
         </div>
         <div class="info Login">
             <h2 class="info-content">Welcome to Quiz App</h2>
@@ -55,25 +55,26 @@
 
         <div class="form-box Register">
             <h3 id="form-h3">Sign Up</h3>
-            <form action="submitQuiz(event)">
-                <div class="username">
-                    <input type="text" required>
-                    <label>Username </label>
-                    <i class="fa-solid fa-user"></i>
-                </div>
-                <div class="username">
-                    <input type="password" required>
-                    <label>Password </label>
-                    <i class="fa-solid fa-lock"></i>
-                </div>
-                <div class="form-btn">
-                    <button class="btn" type="submit">Register</button>
-                </div>
-                <div class="regi">
-                    <p>Already have an account? <a href="#" class="log-in" id="login-link">Sign In</a>
-                    </p>
-                </div>
-            </form>
+            <form action="quiz.php" method="post">
+    <input type="hidden" name="action" value="register">
+    <div class="username">
+        <input type="text" name="username" required>
+        <label>Username </label>
+        <i class="fa-solid fa-user"></i>
+    </div>
+    <div class="username">
+        <input type="password" name="password" required>
+        <label>Password </label>
+        <i class="fa-solid fa-lock"></i>
+    </div>
+    <div class="form-btn">
+        <button class="btn" type="submit">Register</button>
+    </div>
+    <div class="regi">
+        <p>Already have an account? <a href="#" class="log-in" id="login-link">Sign In</a></p>
+    </div>
+</form>
+
         </div>
 
         <div class="info Register">
