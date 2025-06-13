@@ -1072,15 +1072,22 @@ th {
 }
 
 /* Quiz Styles */
+
+
 .quiz-container {
-    max-width: 800px;
+    width:100%;
+      background: linear-gradient(rgb(32, 30, 30), rgb(17, 71, 93),rgb(32, 30, 30));
+    overflow-x: hidden;
+}
+
+.quiz-inner{
+     max-width: 800px;
     margin: 100px auto 50px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(31, 30, 30, 0.6);
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
-
 .quiz-header {
     display: flex;
     justify-content: space-between;
