@@ -16,7 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // Sign Up click handler
   sign_up.addEventListener('click', (e) => {
     e.preventDefault();
-    console.log('Sign up clicked'); // Debug log
+    login.style.display = "none";
+    register.style.display = "flex";
+    infoLogin.style.display = "none";
+    infoRegister.style.display = "flex";
     form_outer.classList.add('active');
   });
 
@@ -24,7 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
   log_in.forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
-      console.log('Sign in clicked'); // Debug log
+      register.style.display = "none";
+      login.style.display = "flex";
+      infoRegister.style.display = "none";
+      infoLogin.style.display = "flex";
       form_outer.classList.remove('active');
     });
   });

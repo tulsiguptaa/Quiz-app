@@ -107,31 +107,6 @@
             <p class="info-p">Designed By-: <br> <span id="info">Priya, Nandani, Tulsi</span> </p>
         </div>
     </div>
-
-    <script>
-        // Test script to verify click events
-        document.addEventListener('DOMContentLoaded', function () {
-            const signUpLink = document.querySelector('.sign-up');
-            const formOuter = document.querySelector('.form-outer');
-
-            if (signUpLink) {
-                signUpLink.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    console.log('Sign up clicked');
-                    formOuter.classList.add('active');
-                });
-            }
-
-            const logInLinks = document.querySelectorAll('.log-in');
-            logInLinks.forEach(link => {
-                link.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    console.log('Sign in clicked');
-                    formOuter.classList.remove('active');
-                });
-            });
-        });
-    </script>
     <script src="quiz.js"></script>
 </body>
 
