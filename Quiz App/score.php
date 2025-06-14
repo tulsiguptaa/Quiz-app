@@ -6,6 +6,9 @@ $percentage = ($score / $totalQuestions) * 100;
 $status = $percentage >= 50 ? "Passed" : "Failed";
 $date = date("Y-m-d");
 $quizName = "General Quiz";
+
+// Get username from session, default to "Guest" if not set
+$username = $_SESSION['username'] ?? "Guest";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -65,7 +68,7 @@ $quizName = "General Quiz";
      </div>
 <div class="score-outer">
     <div class="score-user">
-        <h2 class="score-h2">Welcome </h2>
+        <h2 class="score-h2">Welcome, <?php echo htmlspecialchars($username); ?> 👋</h2>
         <p class="score-p">Here's your quiz performance summary.</p>
     </div>
 
@@ -106,7 +109,7 @@ $quizName = "General Quiz";
                         <td><?php echo round($percentage); ?>%</td>
                         <td><span class="status <?php echo strtolower($status); ?>"><?php echo $status; ?></span></td>
                     </tr>
-                </tbody>
+                 </tbody>
             </table>
         </div>
     </div>
