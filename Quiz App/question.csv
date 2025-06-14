@@ -1,0 +1,21 @@
+question_text,option_a,option_b,option_c,option_d,correct_option
+What is the output of print(2 ** 3) in Python?,6,8,9,16,B
+Which data structure uses FIFO?,Stack,Queue,Tree,Graph,B
+What does HTML stand for?,Hyper Trainer Marking Language,Hyper Text Markup Language,Hyper Text Markdown Language,High Text Machine Language,B
+Which keyword is used to create a function in Python?,func,function,def,define,C
+Which of these is a correct variable name in C?,1value,_value,@value,#value,B
+Which of these is not a programming language?,Python,Java,HTML,Swift,7
+Which loop is guaranteed to execute at least once?,for,while,do-while,foreach,C
+Which operator is used for assignment in C++?,==,=,:=,===,B
+What is the time complexity of binary search?,O(n),O(log n),O(n log n),O(1),B
+What is the purpose of SQL?,Design webpages,Style HTML,Manage databases,Send emails,C
+Which language is used for web page structure?,CSS,HTML,JavaScript,Python,B
+Which sorting algorithm is best on average?,Bubble Sort,Quick Sort,Selection Sort,Insertion Sort,B
+Which of the following is a Python data type?,tuple,set,list,All of these,D
+Which file extension is used for Python?,.py,.java,.js,.html,A
+Which keyword is used to stop a loop in Python?,exit,stop,break,return,C
+Which of the following is a loop structure in C?,if,switch,for,case,C
+What is the extension of a C++ file?,.c,.cpp,.py,.java,B
+What is used to define a class in Python?,object,class,define,init,B
+Which of the following is used to comment a single line in Python?,//,#,<!-->,--,B
+What is the default value of an uninitialized int variable in C?,0,-1,undefined,null,C
