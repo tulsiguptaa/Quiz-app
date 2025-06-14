@@ -45,7 +45,7 @@ $quizName = "General Quiz";
             <li><a href="Home.html" class ="active">Home</a></li>
             <li><a href="About.html">About us</a></li>
             <li><a href="Scoreboard.html">Scoreboard</a></li>
-            <li><a href="new.php">Quiz</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
 
             
                 <li><a href="Contact.html">Contact Us</a></li>
