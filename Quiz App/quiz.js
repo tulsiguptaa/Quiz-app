@@ -288,4 +288,40 @@ document.addEventListener('DOMContentLoaded', () => {
       nextQuestion();
     });
   });
+
+  // Profile Page Functions
+  function loadProfileData() {
+    const currentUser = localStorage.getItem('currentUser') || 'Naina';
+    const userData = getUserData()[currentUser] || {
+      name: currentUser,
+      email: `${currentUser.toLowerCase()}@example.com`,
+      totalScore: 0,
+      quizzesTaken: 0,
+      highestScore: 0,
+      memberSince: new Date().toISOString().split('T')[0]
+    };
+
+    // Update profile information
+    document.getElementById('username').textContent = userData.name;
+    document.getElementById('email').textContent = userData.email;
+    document.getElementById('totalScore').textContent = userData.totalScore;
+    document.getElementById('quizzesTaken').textContent = userData.quizzesTaken;
+    document.getElementById('highestScore').textContent = `${userData.highestScore}%`;
+    document.getElementById('memberSince').textContent = userData.memberSince;
+  }
+
+  function editProfile() {
+    // TODO: Implement profile editing functionality
+    alert('Profile editing functionality will be implemented soon!');
+  }
+
+  function changePassword() {
+    // TODO: Implement password change functionality
+    alert('Password change functionality will be implemented soon!');
+  }
+
+  // Load profile data when the profile page loads
+  if (window.location.pathname.includes('Profile.html')) {
+    document.addEventListener('DOMContentLoaded', loadProfileData);
+  }
 });

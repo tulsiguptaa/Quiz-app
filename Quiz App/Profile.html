@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Landing Page</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+      <!-- navbar page -->
+    <div class="navbar">
+        <header>
+            <a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>Quiz App</span></a>
+            <ul class="navbar">
+                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="score.php">Scoreboard</a></li>
+                <li><a href="new.php">Quiz</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+                <li><a href="Login.html">Log in</a></li>
+
+            </ul>
+
+            <div class="main">
+                <a href="#" class="" user><i class="ri-user-fill"></i>Profile</a>
+                <div class="bx bx-menu" id="menu icon"></div>
+            </div>
+        </header>
+    </div>
+
+
+    <div class="profile-container">
+        <div class="profile-header">
+            <h1>User Profile</h1>
+        </div>
+        <div class="profile-info">
+            <div class="info-group">
+                <div class="info-label">Username</div>
+                <div class="info-value" id="username">Loading...</div>
+            </div>
+            <div class="info-group">
+                <div class="info-label">Email</div>
+                <div class="info-value" id="email">Loading...</div>
+            </div>
+            <div class="info-group">
+                <div class="info-label">Total Score</div>
+                <div class="info-value" id="totalScore">Loading...</div>
+            </div>
+            <div class="info-group">
+                <div class="info-label">Quizzes Taken</div>
+                <div class="info-value" id="quizzesTaken">Loading...</div>
+            </div>
+            <div class="info-group">
+                <div class="info-label">Highest Score</div>
+                <div class="info-value" id="highestScore">Loading...</div>
+            </div>
+            <div class="info-group">
+                <div class="info-label">Member Since</div>
+                <div class="info-value" id="memberSince">Loading...</div>
+            </div>
+        </div>
+        <div class="profile-actions">
+            <button class="btn" onclick="editProfile()">Edit Profile</button>
+            <button class="btn" onclick="changePassword()">Change Password</button>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>
