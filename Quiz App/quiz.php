@@ -21,7 +21,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "SELECT * FROM login WHERE username='$user' AND password='$pass'";
         $result = $conn->query($sql);
         if ($result->num_rows === 1) {
-            echo " Login successful!";
+            echo " Login successful!"; 
+            // header("Location: profile.php");
+             exit(); 
         } else {
             echo "Invalid username or password!";
         }
@@ -48,3 +50,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $conn->close();
 ?>
+<!-- 
+<?php
+session_start();
+$_SESSION['username'] = $user['username']; 
+?> -->

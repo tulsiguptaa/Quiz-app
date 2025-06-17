@@ -1,4 +1,4 @@
-<?php
+ <?php
 session_start();
 include 'config.php';
 
@@ -47,9 +47,9 @@ $achievement_level = "Beginner";
 if ($stats['total_score'] > 1000) $achievement_level = "Expert";
 elseif ($stats['total_score'] > 500) $achievement_level = "Advanced";
 elseif ($stats['total_score'] > 200) $achievement_level = "Intermediate";
-?>
+?> 
 
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -72,10 +72,10 @@ elseif ($stats['total_score'] > 200) $achievement_level = "Intermediate";
         <header>
             <a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>Quiz App</span></a>
             <ul class="navbar">
-                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="Hhome.php" class="active">Home</a></li>
                 <li><a href="About.html">About us</a></li>
                 <li><a href="score.php">Scoreboard</a></li>
-                <li><a href="new.php">Quiz</a></li>
+                <li><a href="quizStart.php">Quiz</a></li>
                 <li><a href="Contact.html">Contact Us</a></li>
                 <li><a href="logout.php">Log out</a></li>
             </ul>
@@ -206,4 +206,5 @@ elseif ($stats['total_score'] > 200) $achievement_level = "Intermediate";
 
     <script src="quiz.js"></script>
 </body>
-</html> 
+</html>  
+

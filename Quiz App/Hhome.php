@@ -1,3 +1,44 @@
+<!-- home.php -->
+<?php
+$host = "localhost";   
+$user = "root";         
+$password = "";           
+$database = "quiz_app"; 
+
+$conn = new mysqli($host, $user, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+
+<!-- count the total number of users  -->
+<?php
+$sql = "SELECT COUNT(*) AS total_users FROM login";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $total_users = $row['total_users'];
+} else {
+    $total_users = 0;
+}
+?>
+
+<!-- count the total qustions  -->
+ <?php
+$sql_questions = "SELECT COUNT(*) AS total_questions FROM questions";
+$result_questions = $conn->query($sql_questions);
+
+$total_questions = 0;
+if ($result_questions->num_rows > 0) {
+    $row_questions = $result_questions->fetch_assoc();
+    $total_questions = $row_questions['total_questions'];
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,7 +77,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="About.html">About us</a></li>
                 <li><a href="score.php">Scoreboard</a></li>
-                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="quizStart.php">Quiz</a></li>
                 <li><a href="Contact.html">Contact Us</a></li>
                 <li><a href="Login.html">Log in</a></li>
             </ul>
@@ -46,7 +87,7 @@
 
                 <div class="bx bx-menu" id="menu icon"></div>
             </div>
-        </header>
+        </header> 
     </div>
     <main></main>
 
@@ -79,12 +120,12 @@
             <div class="home-stats">
                 <div class="stat-item">
                     <i class="ri-user-line"></i>
-                    <span class="stat-number">00+</span>
+                    <span class="stat-number"><?php echo $total_users; ?></span>
                     <span class="stat-label">Users</span>
                 </div>
                 <div class="stat-item">
                     <i class="ri-question-line"></i>
-                    <span class="stat-number">50+</span>
+                    <span class="stat-number"> <?php echo $total_questions; ?>+</span>
                     <span class="stat-label">Questions</span>
                 </div>
                 <div class="stat-item">

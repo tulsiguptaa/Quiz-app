@@ -25,13 +25,13 @@
         <header>
             <a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>Quiz App</span></a>
             <ul class="navbar">
-                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="Hhome.php" class="active">Home</a></li>
                 <li><a href="About.html">About us</a></li>
                 <li><a href="score.php">Scoreboard</a></li>
                 <li><a href="#">Quiz</a></li>
                 <li><a href="Contact.html">Contact Us</a></li>
                 <li><a href="Login.html">Log in</a></li>
-                  <!-- <a href="Profile.php" class="" user><i class="ri-user-fill"></i>Profile</a> -->
+                <!-- <a href="Profile.php" class="" user><i class="ri-user-fill"></i>Profile</a> -->
             </ul>
 
             <div class="main">
@@ -82,10 +82,64 @@
             </div>
 
             <div class="quiz-start">
-                <a href="new.php" class="start-btn">Start Quiz</a>
+                <?php
+                session_start();
+                if(isset($_SESSION['user_id'])) {
+                    echo '<a href="new.php" class="start-btn">Start Quiz</a>';
+                } else {
+                    echo '<div class="login-prompt">';
+                    echo '<p>Please login to start the quiz</p>';
+                    echo '<a href="Login.html" class="login-btn">Login Now</a>';
+                    echo '</div>';
+                }
+                ?>
             </div>
         </div>
     </div>
+
+    <style>
+        .login-prompt {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .login-prompt p {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .login-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color:rgb(55, 184, 231);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .login-btn:hover {
+            background-color:rgb(32, 102, 128);
+        }
+
+        .start-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #2196F3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            margin: 20px auto;
+        }
+
+        .start-btn:hover {
+            background-color: #1976D2;
+        }
+    </style>
 
     <script src="quiz.js"></script>
 </body>

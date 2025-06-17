@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - CodeQuest</title>
     <link rel="stylesheet" href="quiz.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,13 +15,13 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- navbar page -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -32,83 +32,108 @@
         <header>
             <a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>Quiz App</span></a>
             <ul class="navbar">
-                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="Hhome.php" class="active">Home</a></li>
                 <li><a href="About.html">About us</a></li>
                 <li><a href="score.php">Scoreboard</a></li>
-                <li><a href="new.php">Quiz</a></li>
+                <li><a href="quizStart.php">Quiz</a></li>
                 <li><a href="Contact.html">Contact Us</a></li>
-                <li><a href="#">Log in</a></li>
+                <li><a hrer="#">Log in</a></li>
+
+
             </ul>
 
             <div class="main">
-                <a href="Profile.php" class="" user><i class="ri-user-fill"></i>Profile</a>
-                <div class="bx bx-menu" id="menu icon"></div>
+                <a href="Profile.php" class="user"><i class="ri-user-fill"></i>Profile</a>
+                <div class="bx bx-menu" id="menu-icon"></div>
             </div>
         </header>
     </div>
 
 
-    <!-- login page -->
     <div class="form-outer">
-        <div class="styling"></div>
-        <div class="styling2"></div>
         <div class="form-box Login">
             <h3 id="form-h3">Login</h3>
-            <form action="login_handler.php" method="post">
-                <input type="hidden" name="action" value="login">
+            <form action="">
                 <div class="username">
-                    <input type="text" name="username" required>
-                    <label>Username </label>
-                    <i class="fa-solid fa-user"></i>
+                    <input type="text" required>
+                    <label>Username</label>
+                    <i class="ri-user-line"></i>
                 </div>
                 <div class="username">
-                    <input type="password" name="password" required>
-                    <label>Password </label>
-                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" required>
+                    <label>Password</label>
+                    <i class="ri-lock-line"></i>
                 </div>
-                <div class="form-btn">
-                    <button class="btn" type="submit">Login</button>
-                </div>
+                <button type="submit" class="btn">Login</button>
                 <div class="regi">
-                    <p>Don't have an account? <a href="/Signup.html" class="sign-up">Sign Up</a></p>
+                    Don't have an account? <a href="#" id="sign-up">Sign Up</a>
                 </div>
             </form>
-        </div>
-        <div class="info Login">
-            <h2 class="info-content">Welcome to Quiz App</h2>
-            <p class="info-p">Designed By-: <br> <span id="info">Priya,Nandani,Tulsi</span></span></span></span> </p>
         </div>
 
         <div class="form-box Register">
             <h3 id="form-h3">Sign Up</h3>
-            <form action="login_handler.php" method="post">
-                <input type="hidden" name="action" value="register">
-                <div class="username">
-                    <input type="text" name="username" required>
-                    <label>Username </label>
-                    <i class="fa-solid fa-user"></i>
+            <form action="">
+                <div class="username"> 
+                    <input type="text" required>
+                    <label>Full Name</label>
+                    <i class="ri-user-line"></i>
                 </div>
                 <div class="username">
-                    <input type="password" name="password" required>
-                    <label>Password </label>
-                    <i class="fa-solid fa-lock"></i>
+                    <input type="email" required>
+                    <label>Email</label>
+                    <i class="ri-mail-line"></i>
                 </div>
-                <div class="form-btn">
-                    <button class="btn" type="submit">Register</button>
+                <div class="username">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <i class="ri-user-line"></i>
                 </div>
+                <div class="username">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <i class="ri-lock-line"></i>
+                </div>
+                <div class="username">
+                    <input type="password" required>
+                    <label>Confirm Password</label>
+                    <i class="ri-lock-line"></i>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
                 <div class="regi">
-                    <p>Already have an account? <a href="#" class="log-in" id="login-link">Sign In</a></p>
+                    Already have an account? <a href="#" id="sign-in">Login</a>
                 </div>
             </form>
+        </div>
 
+        <div class="info Login">
+            <div class="info-content">
+                <h2>Welcome Back!</h2>
+                <p>Login to continue your coding journey</p>
+            </div>
         </div>
 
         <div class="info Register">
-            <h2 class="info-content SignUP">Welcome to Quiz App</h2>
-            <p class="info-p">Designed By-: <br> <span id="info">Priya, Nandani, Tulsi</span> </p>
+            <div class="info-content">
+                <h2>Join CodeQuest!</h2>
+                <p>Start your coding adventure today</p>
+            </div>
         </div>
     </div>
-    <script src="quiz.js"></script>
+
+    <script>
+        const signUpBtn = document.querySelector("#sign-up");
+        const signInBtn = document.querySelector("#sign-in");
+        const formOuter = document.querySelector(".form-outer");
+
+        signUpBtn.addEventListener("click", () => {
+            formOuter.classList.add("active");
+        });
+
+        signInBtn.addEventListener("click", () => {
+            formOuter.classList.remove("active");
+        });
+    </script>
 </body>
 
 </html>

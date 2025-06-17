@@ -50,7 +50,7 @@ $row = $result->fetch_assoc();
         <header>
             <a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>Quiz App</span></a>
             <ul class="navbar">
-                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="Hhome.php" class="active">Home</a></li>
                 <li><a href="About.html">About us</a></li>
                 <li><a href="score.php">Scoreboard</a></li>
                 <li><a href="#">Quiz</a></li>

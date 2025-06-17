@@ -7,6 +7,7 @@ $status = $percentage >= 50 ? "Passed" : "Failed";
 $date = date("Y-m-d");
 $quizName = "General Quiz";
 
+
 // Get username from session, default to "Guest" if not set
 $username = $_SESSION['username'] ?? "Guest";
 ?>
@@ -45,12 +46,10 @@ $username = $_SESSION['username'] ?? "Guest";
         <header>
         <a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>Quiz App</span></a>
         <ul class ="navbar">
-            <li><a href="Home.html" class ="active">Home</a></li>
+            <li><a href="Hhome.php" class ="active">Home</a></li>
             <li><a href="About.html">About us</a></li>
-            <li><a href="Scoreboard.html">Scoreboard</a></li>
-            <li><a href="quiz.html">Quiz</a></li>
-
-            
+            <li><a href="#">Scoreboard</a></li>
+            <li><a href="quizStart.php">Quiz</a></li>
                 <li><a href="Contact.html">Contact Us</a></li>
             <li><a href="Login.html">Log in</a></li>
             

@@ -19,3 +19,43 @@ What is the extension of a C++ file?,.c,.cpp,.py,.java,B
 What is used to define a class in Python?,object,class,define,init,B
 Which of the following is used to comment a single line in Python?,//,#,<!-->,--,B
 What is the default value of an uninitialized int variable in C?,0,-1,undefined,null,C
+Which HTML tag is used to link an external CSS file?,<link>,<script>,<style>,<css>,A
+What is the output of: print(len("Quiz"))?,3,4,5,2,B
+Which of these is a backend language?,HTML,CSS,Python,B
+Which method is used to add an element to a list in Python?,add(),append(),insert(),push(),B
+Which function is used to get input from the user in Python?,scanf(),cin,input(),read(),C
+Which of these is used to declare a constant in C?,#const,#define,const,constant,B
+Which one is not a looping keyword?,continue,break,exit,elif,D
+Which is the correct syntax to create a dictionary in Python?,{},[],(),<> ,A
+Which of these is not a valid operator in C?,++,--,^^,==,C
+Which of these is a valid way to start an HTML document?,<html>,<doctype>,<!DOCTYPE html>,<start>,C
+Which keyword is used for inheritance in Python?,inherits,extends,super,class,C
+Which symbol is used to access members of a class in C++?,.,->,::,**,B
+What is the output of 3 == '3' in Python?,True,False,Error,None,B
+Which one is used for function overloading?,Python,C++,HTML,SQL,B
+Which data type is immutable in Python?,list,dict,set,tuple,D
+Which keyword is used to create an object in C++?,make,create,new,init,C
+Which SQL command is used to retrieve data?,GET,SHOW,SELECT,FETCH,C
+In HTML, which tag is used to insert an image?,<img>,<image>,<pic>,<src>,A
+Which operator is used for logical AND in Python?,and,&&,AND,&,A
+Which data structure uses LIFO?,Stack,Queue,List,Array,A
+Which of these is a Python loop structure?,for,repeat,until,loop,A
+Which of these is a frontend language?,Java,Python,HTML,MySQL,C
+Which HTML tag is used to create a hyperlink?,<a>,<link>,<href>,<nav>,A
+What is the result of 10 % 3 in Python?,3,0,1,10,C
+Which keyword is used to handle exceptions in Python?,try,catch,except,handle,C
+Which function is used to get length of a list in Python?,size(),count(),length(),len(),D
+Which of the following is used to close a file in Python?,file.end(),file.close(),file.stop(),file.quit(),B
+What is the use of 'return' keyword in functions?,stop program,exit loop,output value,jump line,C
+Which keyword creates a class in C++?,class,struct,object,define,A
+What does SQL stand for?,Structured Question Language,Simple Query Language,Structured Query Language,System Query Language,C
+Which of the following is not a valid loop in Python?,for,while,loop,do-while,D
+Which function adds an item to a set in Python?,add(),append(),push(),insert(),A
+Which is the default port for HTTP?,21,80,443,22,B
+Which tag is used for unordered list in HTML?,<ul>,<li>,<ol>,<list>,A
+What is the keyword for defining a constructor in Python?,init,def,construct,__init__,D
+Which method is used to remove last item from a list in Python?,remove(),pop(),del(),clear(),B
+Which command is used to check Git status?,git commit,git log,git status,git add,C
+Which of the following is a markup language?,Java,C++,HTML,Python,C
+Which function is used to round off a number in Python?,int(),round(),ceil(),floor(),B
+Which of the following is not an IDE?,PyCharm,VScode,Notepad++,Google,B
