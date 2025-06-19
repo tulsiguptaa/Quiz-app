@@ -13,7 +13,9 @@ if ($userAnswer == $correctAnswer) {
     $_SESSION['score'] += 1;
 }
 
-$result = $conn->query("SELECT * FROM questions WHERE id = $questionNumber");
+// "SELECT * FROM questions WHERE id = $questionNumber"
+
+$result = $conn->query("SELECT * FROM questions ORDER BY RAND() LIMIT 10");
 
 if ($result && $result->num_rows > 0) {
     $row = $result->fetch_assoc();
@@ -119,7 +121,7 @@ if ($result && $result->num_rows > 0) {
                                 <div class="progress"></div>
                             </div>
                             <div class="quiz-controls">
-                                <span id="question-number">Question: <?php echo $questionNumber; ?>/20</span>
+                                <span id="question-number">Question: <?php echo $questionNumber; ?>/10</span>
                                 <button type="submit" id="next-btn" class="btn">Next Question</button>
                             </div>
                         </div>

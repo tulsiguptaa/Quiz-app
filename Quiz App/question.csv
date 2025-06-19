@@ -1,61 +1,78 @@
 question_text,option_a,option_b,option_c,option_d,correct_option
-What is the output of print(2 ** 3) in Python?,6,8,9,16,B
-Which data structure uses FIFO?,Stack,Queue,Tree,Graph,B
-What does HTML stand for?,Hyper Trainer Marking Language,Hyper Text Markup Language,Hyper Text Markdown Language,High Text Machine Language,B
-Which keyword is used to create a function in Python?,func,function,def,define,C
-Which of these is a correct variable name in C?,1value,_value,@value,#value,B
-Which of these is not a programming language?,Python,Java,HTML,Swift,7
-Which loop is guaranteed to execute at least once?,for,while,do-while,foreach,C
-Which operator is used for assignment in C++?,==,=,:=,===,B
-What is the time complexity of binary search?,O(n),O(log n),O(n log n),O(1),B
-What is the purpose of SQL?,Design webpages,Style HTML,Manage databases,Send emails,C
-Which language is used for web page structure?,CSS,HTML,JavaScript,Python,B
-Which sorting algorithm is best on average?,Bubble Sort,Quick Sort,Selection Sort,Insertion Sort,B
-Which of the following is a Python data type?,tuple,set,list,All of these,D
-Which file extension is used for Python?,.py,.java,.js,.html,A
-Which keyword is used to stop a loop in Python?,exit,stop,break,return,C
-Which of the following is a loop structure in C?,if,switch,for,case,C
-What is the extension of a C++ file?,.c,.cpp,.py,.java,B
-What is used to define a class in Python?,object,class,define,init,B
-Which of the following is used to comment a single line in Python?,//,#,<!-->,--,B
-What is the default value of an uninitialized int variable in C?,0,-1,undefined,null,C
-Which HTML tag is used to link an external CSS file?,<link>,<script>,<style>,<css>,A
-What is the output of: print(len("Quiz"))?,3,4,5,2,B
-Which of these is a backend language?,HTML,CSS,Python,B
-Which method is used to add an element to a list in Python?,add(),append(),insert(),push(),B
-Which function is used to get input from the user in Python?,scanf(),cin,input(),read(),C
-Which of these is used to declare a constant in C?,#const,#define,const,constant,B
-Which one is not a looping keyword?,continue,break,exit,elif,D
-Which is the correct syntax to create a dictionary in Python?,{},[],(),<> ,A
-Which of these is not a valid operator in C?,++,--,^^,==,C
-Which of these is a valid way to start an HTML document?,<html>,<doctype>,<!DOCTYPE html>,<start>,C
-Which keyword is used for inheritance in Python?,inherits,extends,super,class,C
-Which symbol is used to access members of a class in C++?,.,->,::,**,B
-What is the output of 3 == '3' in Python?,True,False,Error,None,B
-Which one is used for function overloading?,Python,C++,HTML,SQL,B
-Which data type is immutable in Python?,list,dict,set,tuple,D
-Which keyword is used to create an object in C++?,make,create,new,init,C
-Which SQL command is used to retrieve data?,GET,SHOW,SELECT,FETCH,C
-In HTML, which tag is used to insert an image?,<img>,<image>,<pic>,<src>,A
-Which operator is used for logical AND in Python?,and,&&,AND,&,A
-Which data structure uses LIFO?,Stack,Queue,List,Array,A
-Which of these is a Python loop structure?,for,repeat,until,loop,A
-Which of these is a frontend language?,Java,Python,HTML,MySQL,C
-Which HTML tag is used to create a hyperlink?,<a>,<link>,<href>,<nav>,A
-What is the result of 10 % 3 in Python?,3,0,1,10,C
-Which keyword is used to handle exceptions in Python?,try,catch,except,handle,C
-Which function is used to get length of a list in Python?,size(),count(),length(),len(),D
-Which of the following is used to close a file in Python?,file.end(),file.close(),file.stop(),file.quit(),B
-What is the use of 'return' keyword in functions?,stop program,exit loop,output value,jump line,C
-Which keyword creates a class in C++?,class,struct,object,define,A
-What does SQL stand for?,Structured Question Language,Simple Query Language,Structured Query Language,System Query Language,C
-Which of the following is not a valid loop in Python?,for,while,loop,do-while,D
-Which function adds an item to a set in Python?,add(),append(),push(),insert(),A
-Which is the default port for HTTP?,21,80,443,22,B
-Which tag is used for unordered list in HTML?,<ul>,<li>,<ol>,<list>,A
-What is the keyword for defining a constructor in Python?,init,def,construct,__init__,D
-Which method is used to remove last item from a list in Python?,remove(),pop(),del(),clear(),B
-Which command is used to check Git status?,git commit,git log,git status,git add,C
-Which of the following is a markup language?,Java,C++,HTML,Python,C
-Which function is used to round off a number in Python?,int(),round(),ceil(),floor(),B
-Which of the following is not an IDE?,PyCharm,VScode,Notepad++,Google,B
+Which data structure uses FIFO?,Stack,Queue,Tree,Graph,b
+What does CPU stand for?,Central Programming Unit,Central Processing Unit,Computer Power Unit,Central Printed Unit,b
+Which of these is an output device?,Scanner,Keyboard,Monitor,Microphone,c
+Which of these is not a programming language?,Python,HTML,Java,Cobol,b
+Which of these is a binary number?,1234,1010,7890,10A0,b
+Which unit holds data temporarily?,Hard Disk,SSD,Cache,RAM,d
+What is the extension of a Python file?,.py,.java,.exe,.pyt,a
+Which part of the OSI model does IP work at?,Application,Transport,Network,Data Link,c
+What is a foreign key used for?,Primary key,Unique value,Linking tables,Auto increment,c
+Which sorting algorithm is fastest on average?,Bubble Sort,Insertion Sort,Merge Sort,Selection Sort,c
+Which of these is not a NoSQL database?,MongoDB,Redis,PostgreSQL,CouchDB,c
+What is the purpose of a compiler?,Write code,Interpret code,Convert code,Delete code,c
+Which bitwise operator is used for OR?,&,^,|,~ ,c
+What does DNS do?,Store web pages,Assign IPs,Resolve domain names,Encrypt data,c
+Which algorithm is used in Dijkstra's?,Sorting,Pathfinding,Encryption,Compression,b
+Which of the following is NP-Complete?,Binary Search,Traveling Salesman,Linear Search,Bubble Sort,b
+How many layers are in the OSI model?,5,6,7,8,c
+Which normal form eliminates transitive dependency?,1NF,2NF,3NF,BCNF,c
+What is the time complexity of Binary Search?,O(n),O(n^2),O(log n),O(1),c
+Which one is NOT a functional programming language?,Lisp,Prolog,Haskell,Java,d
+What does RAM stand for?,Random Access Memory,Read Access Memory,Run Access Memory,Read And Modify,a
+Which of the following is a loop in C?,for,repeat,iterate,loop,a
+Which of these is a type of software?,Compiler,Mouse,CPU,RAM,a
+Which gate outputs 1 only when both inputs are 1?,OR,AND,XOR,NAND,b
+What is the default port for HTTP?,21,25,80,443,c
+Which data structure uses LIFO?,Queue,Array,Stack,Tree,c
+What type of language is SQL?,Programming,Markup,Query,Functional,c
+What does IDE stand for?,Internal Development Environment,Integrated Development Environment,Integrated Device Environment,Input Device Emulator,b
+Which protocol is used to send emails?,HTTP,FTP,SMTP,DNS,c
+What is the full form of URL?,User Resource Locator,Uniform Resource Locator,Unified Resource Line,Uniform Router Link,b
+Which of these is not an access modifier in C++?,public,private,hidden,protected,c
+What is the time complexity of linear search?,O(n),O(log n),O(1),O(n log n),a
+Which of these is a stable sorting algorithm?,Heap Sort,Quick Sort,Merge Sort,Selection Sort,c
+Which of the following is a non-volatile memory?,RAM,ROM,Cache,Register,b
+What does DHCP do?,Secure data,Assign IP addresses,Route packets,Open ports,b
+Which of these is a shell in Linux?,KDE,Bash,Gnome,XFCE,b
+What is the max number of children in a binary tree node?,1,2,3,Infinite,b
+Which protocol transfers files?,HTTP,FTP,SMTP,DNS,b
+Which command is used to list files in Linux?,ls,cd,mkdir,rm,a
+Which keyword is used to inherit a class in C++?,inherits,extends,public,import,c
+What is a deadlock?,Program running forever,All processes terminate,A situation where processes wait forever,Data corruption,c
+What is the default return type in C if not mentioned?,float,int,char,void,b
+Which is not a valid storage class in C?,auto,register,global,extern,c
+What is a 'pointer to pointer' in C?,Single pointer,Array of pointers,Double indirection,Reference variable,c
+Which of the following trees is balanced?,Binary Tree,BST,AVL Tree,Heap,c
+Which layer in OSI model handles error checking?,Data Link,Session,Transport,Network,a
+What is the command to compile a C file?,run file.c,gcc file.c,execute file.c,compile file.c,b
+Which of these is used to allocate memory dynamically?,int,alloc(),malloc(),define,c
+Which one is a hashing technique?,DFS,Chaining,Dijkstra,AVL Tree,b
+What is the output of 5 & 3 in C?,1,2,3,0,a
+Which one is not a loop structure?,for,while,repeat,do-while,c
+Which HTML tag is used for hyperlink?,<a>,<link>,<href>,<url>,a
+What is recursion?,Loop inside function,Function calling itself,Loop calling function,Multiple functions,b
+Which of the following is a markup language?,Python,Java,HTML,CSS,c
+What is the function of an operating system?,Data storing,Managing hardware and software,Printing documents,Coding programs,b
+Which of these is a relational DBMS?,MongoDB,MySQL,Cassandra,Neo4j,b
+Which is not a binary tree traversal?,Inorder,Postorder,Roundorder,Preorder,c
+Which is faster: HashMap or TreeMap?,HashMap,TreeMap,Equal,Depends,a
+Which of these is a greedy algorithm?,Quick Sort,Dijkstra,Bubble Sort,Binary Search,b
+What is a mutex used for?,Memory allocation,Thread termination,Thread synchronization,Process management,c
+Which SQL command removes a table?,DELETE,REMOVE,DROP,CLEAR,c
+Which of the following is not part of SDLC?,Analysis,Implementation,Evaluation,Maintenance,c
+Which of these is used in public-key cryptography?,Same key for encrypt and decrypt,Different keys,Only private key,Only public key,b
+What is the worst case time complexity of Quick Sort?,O(n),O(log n),O(n log n),O(n^2),d
+Which protocol ensures reliable transmission?,UDP,HTTP,TCP,IP,c
+What does REST stand for?,Random Event Service Transfer,Representational State Transfer,Remote Execution Secure Technology,Read Every Server Twice,b
+What is a circular queue?,A stack,A full queue,A queue with wrap-around,Tree based queue,c
+Which file system is used by Windows?,ext4,FAT32,HFS+,XFS,b
+Which one is NOT a software development model?,Waterfall,Agile,Spiral,Ripple,d
+Which is not a cloud platform?,AWS,Azure,Google Cloud,Wireshark,d
+Which of these can’t be overloaded in C++?,+,==,=,::,d
+Which is NOT a feature of OOP?,Encapsulation,Abstraction,Recursion,Inheritance,c
+Which class cannot be inherited?,Final class,Static class,Abstract class,Derived class,a
+Which data structure is best for LRU cache?,Array,Queue,HashMap + DLL,Stack,c
+What is the default scope of variables in C?,Global,Local,External,Static,b
+Which of these is not a valid HTTP method?,GET,POST,SEND,PUT,c
+Which of these tools is used for network analysis?,Nmap,Wireshark,SQLMap,Burp Suite,b

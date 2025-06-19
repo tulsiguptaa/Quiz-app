@@ -13,28 +13,30 @@ echo"connection succes ";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $action = $_POST['action']; 
-    $user = $_POST['username'];
+    $email = $_POST['email'];
     $pass = $_POST['password'];
+    $username = $_POST['username'];
+    $name = $_POST['fullname'];
 
     if ($action === "login") {
      
-        $sql = "SELECT * FROM login WHERE username='$user' AND password='$pass'";
+        $sql = "SELECT * FROM login WHERE username ='$username' AND password='$pass'";
         $result = $conn->query($sql);
-        if ($result->num_rows === 1) {
+        if ($result->num_rows === 1) { 
             echo " Login successful!"; 
-            // header("Location: profile.php");
-             exit(); 
+            header("Location: new.php");
+            exit();            
         } else {
             echo "Invalid username or password!";
         }
     } elseif ($action === "register") {
         
-        $check = "SELECT * FROM login WHERE username='$user'";
+        $check = "SELECT * FROM login WHERE email='$email'";
         $checkResult = $conn->query($check);
         if ($checkResult->num_rows > 0) {
             echo "Username already exists!";
         } else {
-            $insert = "INSERT INTO login (username, password) VALUES ('$user', '$pass')";
+            $insert = "INSERT INTO login (username, password, email, fullname) VALUES ('$username', '$pass', '$email', '$name')";
             if ($conn->query($insert) === TRUE) {
                 echo "Registered successfully!";
             } else {
@@ -50,8 +52,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $conn->close();
 ?>
-<!-- 
-<?php
-session_start();
-$_SESSION['username'] = $user['username']; 
-?> -->
+

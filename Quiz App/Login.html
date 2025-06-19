@@ -53,18 +53,19 @@
     <div class="form-outer">
         <div class="form-box Login">
             <h3 id="form-h3">Login</h3>
-            <form action="">
+            <form action="quiz.php" method="POST">
+                 <input type="hidden" name="action" value="login">
                 <div class="username">
-                    <input type="text" required>
+                    <input type="text" name="username" required>
                     <label>Username</label>
                     <i class="ri-user-line"></i>
                 </div>
                 <div class="username">
-                    <input type="password" required>
+                    <input type="password" name="password" required>
                     <label>Password</label>
                     <i class="ri-lock-line"></i>
                 </div>
-                <button type="submit" class="btn">Login</button>
+                <button type="submit" value="login" class="btn">Login</button>
                 <div class="regi">
                     Don't have an account? <a href="#" id="sign-up">Sign Up</a>
                 </div>
@@ -73,24 +74,25 @@
 
         <div class="form-box Register">
             <h3 id="form-h3">Sign Up</h3>
-            <form action="">
+            <form action="quiz.php" method="POST">
+                <input type="hidden" name="action" value="register">
                 <div class="username"> 
-                    <input type="text" required>
+                    <input type="text" name="fullname" required>
                     <label>Full Name</label>
                     <i class="ri-user-line"></i>
                 </div>
                 <div class="username">
-                    <input type="email" required>
-                    <label>Email</label>
+                    <input type="email" name="email" required>
+                    <label>Email</label> 
                     <i class="ri-mail-line"></i>
                 </div>
                 <div class="username">
-                    <input type="text" required>
+                    <input type="text" name="username" required>
                     <label>Username</label>
                     <i class="ri-user-line"></i>
                 </div>
                 <div class="username">
-                    <input type="password" required>
+                    <input type="password" name="password" required>
                     <label>Password</label>
                     <i class="ri-lock-line"></i>
                 </div>
@@ -99,7 +101,7 @@
                     <label>Confirm Password</label>
                     <i class="ri-lock-line"></i>
                 </div>
-                <button type="submit" class="btn">Sign Up</button>
+                <button type="submit" value="register" class="btn">Sign Up</button>
                 <div class="regi">
                     Already have an account? <a href="#" id="sign-in">Login</a>
                 </div>
